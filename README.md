@@ -1,7 +1,7 @@
 # Deblurring by Realistic Blurring (CVPR2020)
 
 
-__Model, dataset and Results__
+__Models, dataset and results__
 
 
 ```
