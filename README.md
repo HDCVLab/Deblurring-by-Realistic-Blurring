@@ -9,6 +9,13 @@ GoPro Results: https://drive.google.com/file/d/1mzKz72NhxzMS_jdEZqbkYJehO_QGmKpg
 
 
 
+__For model testing, run following commands.__
+
+```
+sh test.sh
+```
+
+
 
 ## Citation
 If you think this work is useful for your research, please cite the following paper.
