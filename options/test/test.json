@@ -1,0 +1,34 @@
+{
+  "name": "PSNR_GoPro"
+  , "suffix": null
+  , "model": "sr"
+  , "scale": 1
+  , "gpu_ids": [0]
+
+  , "datasets": {
+    "test_1": { 
+      "name": "GoPro"
+      , "mode": "BlurrySharp"
+      , "dataroot_HR": "/home/zhangkaihao/dataset/deblur/GOPRO_Large_all/ori/new_file/test/sharp"
+      , "dataroot_LR": "/home/zhangkaihao/dataset/deblur/GOPRO_Large_all/ori/new_file/test/blurry"
+    }
+  }
+
+  , "path": {
+    "root": "/home/zhangkaihao/Documents/pytorch/mytest/makeblur_tencent_3_v2_test/"
+    , "pretrain_model_G": "../experiments/G.pth"
+  }
+
+  , "network_G": {
+    "which_model_G": "RRDB_net"
+    , "norm_type": null
+    , "mode": "CNA"
+    , "nf": 64
+    , "nb": 16
+    , "in_nc": 3
+    , "out_nc": 3
+
+    , "gc": 32
+    , "group": 1
+  }
+}
