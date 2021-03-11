@@ -15,7 +15,7 @@ GoPro Results: https://drive.google.com/file/d/1mzKz72NhxzMS_jdEZqbkYJehO_QGmKpg
 
 
 
-__For model testing, run following command.__
+__For model testing, run the following command.__
 
 ```
 sh test.sh
