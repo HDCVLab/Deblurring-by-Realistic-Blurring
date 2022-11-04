@@ -1,4 +1,4 @@
-# Deblurring by Realistic Blurring (CVPR2020)
+# Deblurring by Realistic Blurring (CVPR2020 Oral)
 
 
 __Models, dataset, results__
